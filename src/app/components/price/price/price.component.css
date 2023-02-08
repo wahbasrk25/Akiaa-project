@@ -1,0 +1,45 @@
+
+.container{
+
+     width: 80%;
+     background-color: rgb(244, 173, 22);
+     text-align: center;
+     border: 5px solid rgb(0, 136, 255);
+     margin-top: 60px;
+     padding: 20px 0;
+}
+
+.tableInfo{
+
+    width: 100%;
+   
+}
+
+h1{
+    color: rgb(22, 124, 234);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+tr , td{
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(22, 124, 234);
+}
+
+.tableInfo img{
+
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+

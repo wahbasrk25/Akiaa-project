@@ -1,0 +1,30 @@
+
+.container{
+
+     width: 80%;
+     color: rgb(13, 13, 13);
+     text-align: center;
+     margin-top: 60px;
+
+}
+
+.tableInfo{
+    width: 100%;
+    
+}
+
+.tableInfo th{
+    background-color: brown;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tableInfo td{
+    background-color: burlywood;
+    padding: 15px 0;
+}
+
+
+
+
+

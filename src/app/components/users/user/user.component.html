@@ -1,0 +1,27 @@
+
+<div class="bt">
+  <div class="btn btn-danger" (click)="getDatainfofromservice();">Submit</div>
+</div>
+
+<div class="container">
+    <table class="tableInfo">
+       <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>User Name</th>
+        <th>Email</th>
+        <th>Address</th>
+       </tr>
+       <tr *ngFor="let user of DataTable">
+         <td>{{user.id}}</td>
+         <td>{{user.name}}</td>
+         <td>{{user.username}}</td>
+         <td>{{user.email}}</td>
+         <td>{{user.address.street}}</td>
+       </tr>
+    </table>
+
+</div>
+
+
+

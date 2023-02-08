@@ -1,0 +1,21 @@
+
+
+<div class="container">
+
+    <h1>Bad Room Information</h1>
+   
+     <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Model</th>
+            <th>Price</th>
+        </tr>
+        <tr *ngFor="let item of badroomTable">
+            <td>{{item.RoomName}}</td>
+            <td>{{item.RoomModel}}</td>
+            <td>{{item.Price}}</td>
+
+        </tr>
+     </table>
+
+</div>

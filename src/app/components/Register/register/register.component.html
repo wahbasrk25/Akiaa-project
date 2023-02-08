@@ -1,0 +1,54 @@
+
+
+<div class="container">
+    <form class="form-group" autocomplete="off">
+
+       <div>
+        <label for="email">
+           Enter Your Name
+        </label>
+        <input type="email" id="email"  class="form-control"
+         ngModel name="email"
+         #email = 'ngModel' required 
+         minlength="6" maxlength="30" pattern="@gmail.com">
+         <div class="alert alert-danger " *ngIf="email.touched && !email.valid">
+            <div *ngIf="email.errors?.['minlength']">
+               You shoud be entery 5 charackters
+            </div>
+            <div *ngIf="email.errors?.['maxlength']">
+               You shoud be entery 30 charackters
+            </div>
+            <div *ngIf="email.errors?.['pattern']">
+               You shoud be entery email @gmail.com
+            </div>
+         </div>
+         
+         
+            <label for="password">
+               Enter Your Password 
+            </label>
+            <input type="password" id="password" class="form-control">
+            <label for="password">
+                Repeet Password 
+             </label>
+             <input type="password" id="R-password" class="form-control">
+             <label for="password">
+               Enter Your Gender
+             </label><br>
+              Male <input type="radio" name="a">
+              Female <input type="radio" name="a">
+              <br>
+              <br>
+              <br>
+
+              <button class="btn btn-danger">Submit</button>
+
+        </div>
+
+    </form>
+</div>
+
+
+
+
+
